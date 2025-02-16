@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Taka Tracker</title>
+</head>
+
+<body>
+
+  <div class="conatainer">
+    <div class="headline">
+      <h1>Taka <span>Tracker</span></h1>
+    </div>
+    <div class="balance-section">
+      <h2>Balance: <span id="currentBalance">0 ৳</span></h2>
+      <p><b>Lifetime Income: </b><span id="lifeIncome">0 ৳</span></p>
+    </div>
+    <div class="transaction-history">
+      <ul class="transaction-list">
+
+      </ul>
+    </div>
+    <div class="cart">
+      <div class="cart-top">
+        <h1>Add Transaction</h1>
+        <button id="toggleTransactionBtn"></button>
+      </div>
+    </div>
+    <div class="add-transaction" id="add-transaction">
+      <div class="input-sec">
+        <input type="text" id="activity" placeholder="Transaction Name">
+        <input type="number" id="amount" placeholder="Enter Amount">
+      </div>
+      <div class="btnSec">
+        <button class="btnIncome" id="addBtn">Add Income</button>
+        <button class="btnSpend" id="delBtn">Add Spend</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

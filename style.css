@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+    margin-inline: auto;
+}
+.balance-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.cart-top{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px 0;
+}
+.add-transaction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.input-sec{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 45px;
+    width: 250px;
+    border-radius: 7px;
+}
+.btnSec button{
+    padding: 9px 13px;
+    background-color: white;
+    border-radius: 7px;
+    transition: 200ms;
+}
+.btnSec button:hover{
+    transition: 200ms;
+    color: white;
+}
+.btnSec .btnIncome{
+    border: 1px solid green;
+    color: green;
+}
+.btnSec .btnIncome:hover{
+    background-color: green;
+}
+.btnSec .btnSpend{
+    border: 1px solid rgb(240, 0, 0);
+    color: rgb(240, 0, 0);
+}
+.btnSec .btnSpend:hover{
+    background-color: rgb(240, 0, 0);
+}
+.headline{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+.headline h1{
+    color: white;
+ 
+}
+.headline span{
+    color: red;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li{
+    list-style: none;
+    width: 250px;
+    padding: 12px 0;
+    border: 1px solid white;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    border-radius: 7px;
+    margin-bottom: 3px;
+}
